@@ -1,0 +1,70 @@
+body{
+	background-color:tomato;
+	margin:0px;
+}
+.bg{
+	background-image: url("baneer.png");
+	background-size: 100% 100%;
+	padding:20px;
+}
+.title{
+	color:yellow;
+	font-size:2.8em;
+	padding:20px;
+	text-shadow::2px 4px 4px white;
+}
+.menu{
+	color:white;
+	font-size:1.9em;
+	text-decoration:none;
+	padding:10px;
+}
+.menu:hover{
+	color:tomato;
+	font-size:1.9em;
+	text-decoration:underline;
+	box-shadow:2px 3px 6px red;	
+}
+.bgimg{
+	background-image: url("bg.jpg");
+	text-align:center;
+	padding:170px;
+	font-size:4.3em;
+	text-shadow:2px 3px 1px blue;
+	background-size:100% 100%;
+	}
+
+.content{
+	background-color:white;
+	width: 80%;
+	margin: 0 auto;
+	padding:60px;
+	font-size:1.6em;
+	text-align:justify;
+	line-height:38px;
+	border-radius:120px 0px 120px 0px;
+	box-shadow:15px 12px 7px gray;
+}
+.feed{
+	background-color: #ff8048;
+	color: blue;
+	font-style: italic;
+	padding:10px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 1.5em;
+}
+.feed:hover{
+	color: yellow;
+	background-color: black
+	text-shadow: 2px 2px 10px red;
+}
+.footer{
+	background-color:black;
+	padding:15px;
+	color:orange;
+	font-size:1.8em;
+	text-align:right;
+}
+
+	

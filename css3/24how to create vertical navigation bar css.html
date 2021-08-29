@@ -1,0 +1,54 @@
+<style>
+	.nav{
+		width: 300px;
+	}
+	.mainm, .subm{
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		font-size: 1.6em;
+		color: white;
+	}
+	.mainm a{
+		display: block;
+		background-color: #ccc;
+		text-decoration: none;
+		padding: 15px;
+	}
+	.mainm a:hover{
+		background-color: #808080;
+
+	}
+	.mainm li:hover .subm{
+		display: block;
+		max-height:200px;
+	}
+	.subm a{
+		background-color: #999;
+		font-size: 20px;
+	}
+	.subm a:hover{
+		background-color: #666;
+		color: orange;
+	}
+	.subm{
+		overflow: hidden;
+		max-height: 0;
+		transition: all 0.5s ease-out;
+	}
+
+</style>
+<nav class="nav">
+	<ul class="mainm">
+		<li><a href=""> Home</a></li>
+		<li><a href="">Product</a>
+			<ul class="subm">
+				<li><a href=""> Apple </a></li>
+				<li><a href=""> Dell </a></li>
+				<li><a href=""> Aoc </a></li>
+			</ul>
+		</li>
+		<li><a href=""> Contact</a></li>
+
+	</ul>
+</nav>

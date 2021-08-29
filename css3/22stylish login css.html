@@ -1,0 +1,74 @@
+<style type="text/css">
+	body{
+		background-color: black;
+	}
+	.box{
+		background-color: orange;
+		width: 40%;
+		margin: 0 auto;
+		text-align: center;
+		top: 30%;
+		position: relative;
+		padding: 10px;
+		border-radius: 1px 1px 50px 50px;
+		transform:rotate(-5deg);
+		box-shadow: 5px 12px 1px 10px rgb(255,255,255);
+	}
+	.head{
+		color: white;
+		background-color: black;
+		padding: 20px;
+		border-radius: 10px;
+		font-size: 1.3em;
+		letter-spacing: 15px;
+		font-family: century;
+		box-shadow: 1px 1px 1px;
+
+	}
+	@keyframes h{
+		to{
+			background-color: blue;
+			color:yellow; 
+		}
+	}
+	.txtbox{
+		padding: 10px;
+	}
+	.txt{
+		width: 80%;
+		padding: 15px;
+		color: white;
+		outline: none;
+		border:1px solid #ff0000;
+	}
+	.txt:focus{
+		color: black;
+		border-color: 1px solid #00ff00;
+		border-radius: 10px;
+	}
+	.btn{
+		color: black;
+		background-color: #cdeeff;
+		width: 80%;
+		padding: 15px;
+	}
+	.btn:hover{
+		color: black;
+		background-color: red
+	}
+	
+</style>
+<div class="box">
+	<div class="head">
+		Login
+	</div>
+	<div class="txtbox">
+		<input type="text" class="txt" name="" placeholder="username">
+	</div>
+	<div class="txtbox">
+		<input type="password" class="txt" name="" placeholder="password">
+	</div>
+	<div class="txtbox">
+		<input type="submit" class="btn" name="" value="login now">
+	</div>
+</div>
